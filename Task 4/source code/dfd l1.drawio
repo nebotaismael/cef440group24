@@ -1,0 +1,442 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="27.0.9">
+  <diagram name="Page-1" id="fLyjW3EOl9v4OzKJQ_fB">
+    <mxGraphModel dx="2954" dy="1629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-1" value="Student" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3472" y="56" width="110" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-2" value="Instructor" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="707" y="353" width="124" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-3" value="Administrator" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2735" y="353" width="152" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-4" value="Authentication (Validate Credentials)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1665" y="203" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-5" value="Facial Enrollment (Create Biometric Template)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3945" y="203" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-6" value="Check-in Process (Geofence + Facial Match)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3567" y="465" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-7" value="Session Management (Start/End Classes)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="24" y="465" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-8" value="Attendance Monitoring (Real-time Data)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="484" y="465" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-9" value="Reporting (Generate PDF/CSV)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="794" y="465" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-10" value="Manual Override (Adjust Records)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1342" y="465" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-11" value="User Management (CRUD Users)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2216" y="465" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-12" value="Course Management (CRUD Courses)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2526" y="465" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-13" value="Geofence Management (Define Boundaries)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2836" y="465" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-14" value="Audit Logging (Track Events)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3146" y="465" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-15" value="Users (ID, Name, Role)" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1043" y="629" width="177" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-16" value="Courses (ID, Code, Name)" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="536" y="628" width="198" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-17" value="Enrollments (Student+Course)" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3632" y="20" width="215" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-18" value="Geofences (ID, Coords, Radius)" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3209" y="615" width="215" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-19" value="Sessions (ID, Course, Time)" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="785" y="627" width="208" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-20" value="AttendanceRecords (Student, Session)" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="615" width="215" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-21" value="FacialTemplates (Feature Vector)" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3869" y="615" width="215" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-22" value="AuditLogs (Events, Timestamps)" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2509" y="615" width="215" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-23" value="Login Credentials" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.57;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-1" target="LoJ1SLDWAxWag16vc0Ah-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1795" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-24" value="Facial Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=0.99;entryX=0;entryY=0.25;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-1" target="LoJ1SLDWAxWag16vc0Ah-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3571" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-25" value="Check-in Request" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-1" target="LoJ1SLDWAxWag16vc0Ah-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3697" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-26" value="Login Response" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.44;entryX=1;entryY=0.94;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-4" target="LoJ1SLDWAxWag16vc0Ah-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3815" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-27" value="Enrollment Feedback" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;entryX=1;entryY=0.73;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-5" target="LoJ1SLDWAxWag16vc0Ah-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4075" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-28" value="Check-in Result" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.26;entryX=1;entryY=0.67;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-6" target="LoJ1SLDWAxWag16vc0Ah-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4240" y="428" />
+              <mxPoint x="4240" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-29" value="Login Credentials" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.43;entryX=0.91;entryY=1;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-2" target="LoJ1SLDWAxWag16vc0Ah-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2000" y="317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-30" value="Start/End Session" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.62;entryX=0.23;entryY=0;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-2" target="LoJ1SLDWAxWag16vc0Ah-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-31" value="Monitor Request" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.68;entryX=0;entryY=0.15;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-2" target="LoJ1SLDWAxWag16vc0Ah-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="247" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-32" value="Report Request" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.8;entryX=0;entryY=0.22;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-2" target="LoJ1SLDWAxWag16vc0Ah-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="471" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-33" value="Override Request" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=1.01;entryX=0;entryY=0.26;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-2" target="LoJ1SLDWAxWag16vc0Ah-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="941" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-34" value="Login Response" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.62;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-4" target="LoJ1SLDWAxWag16vc0Ah-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="769" y="317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-35" value="Confirmation" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.36;entryX=1;entryY=0.8;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-7" target="LoJ1SLDWAxWag16vc0Ah-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1074" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-36" value="Real-time Data" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.31;entryX=1;entryY=0.68;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-8" target="LoJ1SLDWAxWag16vc0Ah-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1291" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-37" value="Report Data" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.28;entryX=1;entryY=0.63;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-9" target="LoJ1SLDWAxWag16vc0Ah-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1506" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-38" value="Override Confirmation" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.02;entryX=1;entryY=0.6;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-10" target="LoJ1SLDWAxWag16vc0Ah-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1734" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-39" value="Login Credentials" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.01;entryX=1;entryY=0.62;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-3" target="LoJ1SLDWAxWag16vc0Ah-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2811" y="317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-40" value="User CRUD" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.66;entryX=0;entryY=0.01;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-3" target="LoJ1SLDWAxWag16vc0Ah-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2088" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-41" value="Course CRUD" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.72;entryX=0;entryY=0.15;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-3" target="LoJ1SLDWAxWag16vc0Ah-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2297" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-42" value="Geofence CRUD" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.87;entryX=0;entryY=0.22;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-3" target="LoJ1SLDWAxWag16vc0Ah-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2515" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-43" value="Audit Log Request" style="curved=1;startArrow=none;endArrow=block;exitX=0.34;exitY=1.01;entryX=0;entryY=0.26;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-3" target="LoJ1SLDWAxWag16vc0Ah-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2743" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-44" value="Login Response" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=1;entryX=0;entryY=0.39;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-4" target="LoJ1SLDWAxWag16vc0Ah-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-45" value="Confirmation" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.26;entryX=0.65;entryY=1.01;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-11" target="LoJ1SLDWAxWag16vc0Ah-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2879" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-46" value="Confirmation" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.21;entryX=1;entryY=0.89;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-12" target="LoJ1SLDWAxWag16vc0Ah-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3092" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-47" value="Confirmation" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.13;entryX=1;entryY=0.73;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-13" target="LoJ1SLDWAxWag16vc0Ah-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3306" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-48" value="Log Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.97;exitY=0;entryX=1;entryY=0.66;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-14" target="LoJ1SLDWAxWag16vc0Ah-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3512" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-49" value="Read/Validate" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=1;entryX=1;entryY=0.37;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-4" target="LoJ1SLDWAxWag16vc0Ah-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1916" y="317" />
+              <mxPoint x="1916" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-50" value="Store Template" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.78;entryY=0;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-5" target="LoJ1SLDWAxWag16vc0Ah-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4075" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-51" value="Read" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=1;entryY=0.46;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-6" target="LoJ1SLDWAxWag16vc0Ah-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3568" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-52" value="Read" style="curved=1;startArrow=none;endArrow=block;exitX=0.36;exitY=1;entryX=1;entryY=0.21;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-6" target="LoJ1SLDWAxWag16vc0Ah-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3627" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-53" value="Read" style="curved=1;startArrow=none;endArrow=block;exitX=0.48;exitY=1;entryX=0;entryY=0.2;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-6" target="LoJ1SLDWAxWag16vc0Ah-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3686" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-54" value="Write" style="curved=1;startArrow=none;endArrow=block;exitX=0.6;exitY=1;entryX=1;entryY=0.46;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-6" target="LoJ1SLDWAxWag16vc0Ah-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3747" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-55" value="Log Event" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=1;entryX=1;entryY=0.43;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-6" target="LoJ1SLDWAxWag16vc0Ah-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3825" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-56" value="Read" style="curved=1;startArrow=none;endArrow=block;exitX=0.23;exitY=1;entryX=0;entryY=0.32;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-7" target="LoJ1SLDWAxWag16vc0Ah-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-57" value="Write" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=1;entryX=0;entryY=0.34;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-7" target="LoJ1SLDWAxWag16vc0Ah-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="224" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-58" value="Log Event" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.98;entryX=0;entryY=0.46;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-7" target="LoJ1SLDWAxWag16vc0Ah-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-59" value="Read" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0;entryY=0.4;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-8" target="LoJ1SLDWAxWag16vc0Ah-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-60" value="Read" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=1;entryX=0.01;entryY=0;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-8" target="LoJ1SLDWAxWag16vc0Ah-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="674" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-61" value="Read" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=1;entryX=0;entryY=0.25;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-8" target="LoJ1SLDWAxWag16vc0Ah-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="733" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-62" value="Read" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=0;entryY=0.35;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-9" target="LoJ1SLDWAxWag16vc0Ah-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="792" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-63" value="Read" style="curved=1;startArrow=none;endArrow=block;exitX=0.35;exitY=1;entryX=1;entryY=0;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-9" target="LoJ1SLDWAxWag16vc0Ah-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-64" value="Read" style="curved=1;startArrow=none;endArrow=block;exitX=0.91;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-9" target="LoJ1SLDWAxWag16vc0Ah-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1131" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-65" value="Log Event" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0;entryY=0.44;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-9" target="LoJ1SLDWAxWag16vc0Ah-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1278" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-66" value="Write" style="curved=1;startArrow=none;endArrow=block;exitX=0.31;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-10" target="LoJ1SLDWAxWag16vc0Ah-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1377" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-67" value="Log Event" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.9;entryX=0;entryY=0.39;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-10" target="LoJ1SLDWAxWag16vc0Ah-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1783" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-68" value="CRUD" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.92;entryX=1;entryY=0.39;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-11" target="LoJ1SLDWAxWag16vc0Ah-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2053" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-69" value="CRUD" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=1;entryX=1;entryY=0.44;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-12" target="LoJ1SLDWAxWag16vc0Ah-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2540" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-70" value="CRUD" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=1;entryX=0;entryY=0.31;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-13" target="LoJ1SLDWAxWag16vc0Ah-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2850" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-71" value="Log Event" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=1;entryX=0.06;entryY=0;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-11" target="LoJ1SLDWAxWag16vc0Ah-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2462" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-72" value="Log Event" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=1;entryX=0.94;entryY=0;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-12" target="LoJ1SLDWAxWag16vc0Ah-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2772" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-73" value="Log Event" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=1;entryX=1;entryY=0.31;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-13" target="LoJ1SLDWAxWag16vc0Ah-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3083" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJ1SLDWAxWag16vc0Ah-74" value="Read" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.37;rounded=0;" edge="1" parent="1" source="LoJ1SLDWAxWag16vc0Ah-14" target="LoJ1SLDWAxWag16vc0Ah-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3276" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
