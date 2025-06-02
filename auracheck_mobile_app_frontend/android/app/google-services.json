@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "107737672940",
+    "firebase_url": "https://powerub-795a1-default-rtdb.firebaseio.com",
+    "project_id": "powerub-795a1",
+    "storage_bucket": "powerub-795a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107737672940:android:163c63cc0a8ec88efac9c9",
+        "android_client_info": {
+          "package_name": "com.example.powervideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107737672940-7hn3mq0u43hnr28pbns54bns3ruu52tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM5R8qPWl_UtGh5z1z_ovOUhfn-0Nj2MI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107737672940-7hn3mq0u43hnr28pbns54bns3ruu52tc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "107737672940-l6ds1sakng5fcnqk33puqh7oi2deppa3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.powerub"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107737672940:android:6c26d76145177c1cfac9c9",
+        "android_client_info": {
+          "package_name": "com.official.powerub.pub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107737672940-7hn3mq0u43hnr28pbns54bns3ruu52tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM5R8qPWl_UtGh5z1z_ovOUhfn-0Nj2MI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107737672940-7hn3mq0u43hnr28pbns54bns3ruu52tc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "107737672940-l6ds1sakng5fcnqk33puqh7oi2deppa3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.powerub"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
