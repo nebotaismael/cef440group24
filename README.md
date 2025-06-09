@@ -1,5 +1,3 @@
-I'll help you create comprehensive documentation for your AuraCheck app. Since you want complete documentation and I need to inform you when my character limit approaches, I'll provide thorough documentation starting now.
-
 ## Complete AuraCheck App Documentation
 
 ### Project Overview
