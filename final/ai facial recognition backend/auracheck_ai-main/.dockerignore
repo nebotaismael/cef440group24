@@ -1,0 +1,21 @@
+# Python cache files
+**/__pycache__/
+**/*$py.class
+
+# DeepFace cached models (if stored locally)
+**/models/*
+!/models/download_models.py
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Git and version control
+.git
+.gitignore
+
+# Local development files
+.env.local
+*.log
+app_temp/

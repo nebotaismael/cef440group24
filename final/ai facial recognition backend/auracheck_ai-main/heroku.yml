@@ -1,0 +1,21 @@
+# Heroku deployment configuration for memory-optimized AttendanceAI
+build:
+  docker:
+    web: Dockerfile
+  config:
+    PYTHONDONTWRITEBYTECODE: 1
+    PYTHONUNBUFFERED: 1
+    TF_CPP_MIN_LOG_LEVEL: 3
+    OMP_NUM_THREADS: 2
+    TF_FORCE_GPU_ALLOW_GROWTH: true
+    CUDA_VISIBLE_DEVICES: -1
+    MALLOC_TRIM_THRESHOLD_: 100000
+    MALLOC_MMAP_THRESHOLD_: 100000
+
+run:
+  web: gunicorn --bind 0.0.0.0:$PORT --workers 1 --threads 1 --worker-class sync --timeout 60 --keep-alive 2 --max-requests 50 --max-requests-jitter 5 --preload --access-logfile - --error-logfile - application:app
+
+release:
+  image: web
+  command:
+    - "python -c \"print('Release phase: App is ready to start')\""

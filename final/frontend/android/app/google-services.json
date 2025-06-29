@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "947601139637",
+    "project_id": "airecognition-63fac",
+    "storage_bucket": "airecognition-63fac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947601139637:android:8011f88d578bb46f6ddbfc",
+        "android_client_info": {
+          "package_name": "com.example.powervideo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdEU-_NHz68pkJNqmxswGWENuKRVA5lxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,199 @@
+{
+  "info": {
+    "name": "AuraCheck Attendance API",
+    "description": "Face recognition-based attendance system with liveness detection",
+    "version": "1.0.0",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "bearer"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://auracheck-backend-ed233cba7e31.herokuapp.com",
+      "type": "string"
+    },
+    {
+      "key": "authToken",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/",
+          "host": ["{{baseUrl}}"],
+          "path": [""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "User Login",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "if (pm.response.code === 200) {",
+              "    const response = pm.response.json();",
+              "    pm.collectionVariables.set('authToken', response.token);",
+              "    console.log('Token saved:', response.token);",
+              "}"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "john.doe@ub.edu.cm",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "INS002",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/login",
+          "host": ["{{baseUrl}}"],
+          "path": ["login"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Face Registration",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{authToken}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "image",
+              "type": "file",
+              "src": [],
+              "description": "Face image file (JPG, PNG, JPEG)"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/attendance/register",
+          "host": ["{{baseUrl}}"],
+          "path": ["attendance", "register"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Attendance Verification",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{authToken}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "image",
+              "type": "file",
+              "src": [],
+              "description": "Face image for verification"
+            },
+            {
+              "key": "session_id",
+              "value": "session_123",
+              "type": "text",
+              "description": "Active session ID"
+            },
+            {
+              "key": "latitude",
+              "value": "3.848",
+              "type": "text",
+              "description": "Current latitude"
+            },
+            {
+              "key": "longitude",
+              "value": "11.502",
+              "type": "text",
+              "description": "Current longitude"
+            },
+            {
+              "key": "location_id",
+              "value": "main_campus",
+              "type": "text",
+              "description": "(Optional) Location identifier",
+              "disabled": true
+            },
+            {
+              "key": "pin_code",
+              "value": "1234",
+              "type": "text",
+              "description": "(Optional) PIN code",
+              "disabled": true
+            },
+            {
+              "key": "device_id",
+              "value": "device_001",
+              "type": "text",
+              "description": "(Optional) Device identifier",
+              "disabled": true
+            },
+            {
+              "key": "authorized_locations",
+              "value": "[{\"latitude\": 3.848, \"longitude\": 11.502, \"radius\": 100, \"name\": \"Main Campus\"}]",
+              "type": "text",
+              "description": "(Optional) Authorized locations JSON",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/attendance/verify",
+          "host": ["{{baseUrl}}"],
+          "path": ["attendance", "verify"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
